@@ -9,6 +9,7 @@ body {
   background-position: center;
 }
 
+/* DIV PRINCIPALE CHE CONTIENE TUTTO */
 .container {
   width: 50%;
   height: 100%;
@@ -16,6 +17,7 @@ body {
   font-family: 'Montserrat';
 }
 
+/* IMPOSTAZIONI HEADER E SUB HEADER */
 header {
   font-family: 'Roboto';
 }
@@ -87,6 +89,7 @@ header {
   border-radius: 12px;
 }
 
+/* IMPOSTAZIONI DIV CENTRALE E COLONNE */
 .main-div {
   width: 100%;
   height: auto;
@@ -179,6 +182,7 @@ header {
   margin-top: 0px;
 }
 
+/* IMPOSTAZIONI FOOTER E SUB FOOTER */
 .footer {
   position: relative;
   height: 100px;
