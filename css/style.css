@@ -89,13 +89,15 @@ header {
   border-radius: 12px;
 }
 
-#navmenu li a:hover::after {
+/* DA SISTEMARE */
+
+/* #navmenu li a:hover::after {
   content: '\f355'
 }
 
 #navmenu li a:hover::before {
   content: "\f356"
-}
+} */
 
 /* IMPOSTAZIONI DIV CENTRALE E COLONNE */
 .main-div {
