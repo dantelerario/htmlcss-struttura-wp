@@ -89,6 +89,14 @@ header {
   border-radius: 12px;
 }
 
+#navmenu li a:hover::after {
+  content: '\f355'
+}
+
+#navmenu li a:hover::before {
+  content: "\f356"
+}
+
 /* IMPOSTAZIONI DIV CENTRALE E COLONNE */
 .main-div {
   width: 100%;
@@ -112,6 +120,12 @@ header {
 #organictheme {
   widows: 100%;
   padding: 10px 3px;
+}
+
+#organictheme ul {
+  width: 100%;
+  padding: 5px 0;
+  list-style-type: none;
 }
 
 #organictheme li {
