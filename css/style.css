@@ -120,13 +120,15 @@ header {
 
 #organictheme i {
   float: left;
-  font-size: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
   padding-right: 5px;
   color: orange;
 }
 
 #organictheme h4 {
   font-size: 15px;
+  line-height: 15px;
 }
 
 #organictheme li a {
