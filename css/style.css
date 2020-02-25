@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -55,49 +56,70 @@ header {
 }
 
 .sub-header {
-  height: 70px;
+  position: relative;
+  height: 90px;
   background: #525252;
   border: 0.5px solid grey;
-  margin-top: 1px;
   text-align: center;
+  font-weight: 700;
 }
 
 #navmenu {
+  /* position: absolute;
+  top: 20px;
+  left: 10px; */
   display: inline-block;
-  height: 80px;
-  font-size: 15px;
+  height: auto;
+  width: auto;
+  font-size: 13px;
   font-weight: 700;
   background: transparent;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 25px;
 }
 
 #navmenu li{
   display: inline-block;
+  /* padding-left: 75px; */
 }
+
+/* #navmenu li:first-child {
+  padding-left: 10px;
+} */
+
 
 #navmenu li a {
   display: inline-block;
-  padding: 15px;
   color: white;
-  text-decoration: none
+  text-decoration: none;
+  padding: 15px 35px 15px 35px;
+  width: 180px;
 }
 
-#navmenu li a:hover {
+/* #navmenu li a:hover {
   background-color: rgba(0, 0, 0, 0.25);
+  width: 250px;
   border-radius: 12px;
-}
+  padding: 12px;
+} */
 
 /* DA SISTEMARE */
 
-/* #navmenu li a:hover::after {
-  content: '\f355'
+#navmenu li a:hover::after {
+  font-family: "Font Awesome 5 Free";
+  content: ' \f060';
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
 }
 
+
 #navmenu li a:hover::before {
-  content: "\f356"
-} */
+  font-family: "Font Awesome 5 Free";
+  content: '\f061 ';
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
+}
 
 /* IMPOSTAZIONI DIV CENTRALE E COLONNE */
 .main-div {
