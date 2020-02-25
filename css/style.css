@@ -201,6 +201,13 @@ header {
 
 .sub-footer li {
   display: inline-block;
+
+}
+
+.sub-footer i {
+  font-size: 50px;
+  padding: 5px 35px 5px;
+  color: #545454;
 }
 
 .clearfix::after {
