@@ -106,6 +106,7 @@ header {
   width: 15%;
   border: 0.5px solid grey;
   border-radius: 10px;
+  padding: 5px;
 }
 
 #organictheme {
@@ -119,8 +120,13 @@ header {
 
 #organictheme i {
   float: left;
-  padding-right: 2px;
+  font-size: 20px;
+  padding-right: 5px;
   color: orange;
+}
+
+#organictheme h4 {
+  font-size: 15px;
 }
 
 #organictheme li a {
